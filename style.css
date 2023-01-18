@@ -1040,3 +1040,11 @@ h4 {
         text-align: center;
     }
 }
+
+
+/* Add */
+.size-paragraph
+{
+    font-size: 18px;
+    font-weight: 600;
+}
