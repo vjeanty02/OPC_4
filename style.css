@@ -655,7 +655,7 @@ a {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1400px;
 }
 
 .hero-bloc-text {
@@ -714,11 +714,6 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
-}
-
-.med-width-whitespace {
-    max-width: 800px;
-    margin: auto;
 }
 
 h1 {
@@ -884,8 +879,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -902,8 +897,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
