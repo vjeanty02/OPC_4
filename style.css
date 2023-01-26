@@ -94,11 +94,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -814,10 +809,6 @@ h4 {
     background-image: url("img/dots-bg.webp");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
 }
@@ -1049,6 +1040,8 @@ h4 {
 
 .size-paragraph {
     text-align: center;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
     
 }
 .bloc-2-services-container {
@@ -1163,7 +1156,7 @@ h4 {
         width: 98%;
         display: flex;
         justify-content: center;
-        padding-right: 0;
+
     }
 
     .portfolio-container {
