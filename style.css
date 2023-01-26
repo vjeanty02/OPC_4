@@ -734,7 +734,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: rgba(255, 255, 255, 0.795) !important;
 }
 
 .portfolio-thumb {
@@ -1214,4 +1214,13 @@ h4 {
 .contact-subtitle
 {
     color: rgba(255, 255, 255, 0.795) !important;
+}
+.size16
+{
+    font-size: 14px;
+}
+.col-sm-6__contact
+{
+    font-size: 16px;
+    align-items: center;
 }
