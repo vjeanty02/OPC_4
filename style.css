@@ -301,7 +301,6 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -810,11 +809,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/image-de-presentation1.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation2.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1217,3 +1216,6 @@ h4 {
     font-size: 16px;
     align-items: center;
 }
+
+
+
